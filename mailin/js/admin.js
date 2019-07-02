@@ -854,7 +854,7 @@ $jQ(document).ready(function(){
         });
     });
 
-    /* sync wordpress users to sendinblue contact list */
+    /* sync wordpress users to Kamva contact list */
     // sync popup
     $jQ('#sib-sync-btn').on('click', function() {
         var syncModal = $jQ('.sib-sync-modal');
@@ -893,7 +893,7 @@ $jQ(document).ready(function(){
         }
     });
 
-    // sync users to sendinblue
+    // sync users to Kamva
     $jQ('#sib_sync_users_btn').on('click', function(){
 
         $jQ(this).attr('disabled', 'true');

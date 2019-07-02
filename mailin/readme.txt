@@ -1,6 +1,6 @@
-﻿=== SendinBlue Subscribe Form And WP SMTP ===
-Contributors: neeraj_slit
-Tags: sendinblue, marketing automation, email marketing, email campaign, newsletter, wordpress smtp, subscription form, phpmailer, SMTP, wp_mail, massive email, sendmail, ssl, tls, wp-phpmailer, mail smtp, mailchimp, newsletters, email plugin, signup form, email widget, widget, plugin, sidebar, shortcode
+﻿=== Kamva Subscribe Form And WP SMTP ===
+Contributors: neeraj_slit, hadifarnoud, behzadsh
+Tags: Kamva, marketing automation, email marketing, email campaign, newsletter, wordpress smtp, subscription form, phpmailer, SMTP, wp_mail, massive email, sendmail, ssl, tls, wp-phpmailer, mail smtp, mailchimp, newsletters, email plugin, signup form, email widget, widget, plugin, sidebar, shortcode
 Requires at least: 4.4
 Tested up to: 4.9.7
 Stable tag: trunk
@@ -11,14 +11,14 @@ Easily send emails from your WordPress blog using your preferred SMTP server
 
 == Description ==
 
-<a href="https://www.sendinblue.com/?utm_source=wordpress_plugin&utm_medium=plugin&utm_campaign=addons_page" target="_blank">SendinBlue</a>’s official plugin for WordPress is a powerful all-in-one email marketing plugin. At a glance:
+<a href="https://www.Kamva.ir/email?utm_source=wordpress_plugin&utm_medium=plugin&utm_campaign=addons_page" target="_blank">Kamva</a>’s official plugin for WordPress is a powerful all-in-one email marketing plugin. At a glance:
 <ul>
 <li><b>Subscription forms</b> - Create custom subscription forms and easily integrate them into your posts, pages or sidebars</li>
 <li><b>Contact lists</b> - Manage your contact lists and take advantage of advanced segmentation to improve your campaign performance</li>
 <li><b>Marketing campaigns</b> - Easily create and send beautiful newsletters using our mobile-friendly, drag and drop builder to create custom emails or select from our template library</li>
-<li><b>Transactional emails</b> - The wp_mail() function automatically uses SendinBlue’s SMTP for enhanced deliverability and tracking</li>
+<li><b>Transactional emails</b> - The wp_mail() function automatically uses Kamva’s SMTP for enhanced deliverability and tracking</li>
 <li><b>Statistics</b> - Real-time report dashboard gives you advanced insights into deliverability and performance: opens, clicks, bounce reports, etc.</li>
-<li><b>Marketing automation</b> - Enable Automation on WordPress to auto-install the script on your website and the identify tag on the SendinBlue forms and Wordpress Login </li>
+<li><b>Marketing automation</b> - Enable Automation on WordPress to auto-install the script on your website and the identify tag on the Kamva forms and Wordpress Login </li>
 </ul> 
 
 = Subscription Forms =
@@ -58,58 +58,58 @@ Easily send emails from your WordPress blog using your preferred SMTP server
 = Marketing Automation =
 <ul>
 <li>Auto-installation of the automation script on your website</li>
-<li>Auto-deployment of the identify tag for SendinBlue’s forms and Wordpress plugin</li>
-<li>Access to the SendinBlue online dashboard for workflow creation and management</li>
+<li>Auto-deployment of the identify tag for Kamva’s forms and Wordpress plugin</li>
+<li>Access to the Kamva online dashboard for workflow creation and management</li>
 </ul>  
 
 = Plugin Support =
-To get support, please send an email to <a href="mailto:contact@sendinblue.com">contact@sendinblue.com</a>, we will be happy to help you!
+To get support, please send an email to <a href="mailto:contact@Kamva.com">contact@Kamva.com</a>, we will be happy to help you!
 
 The plugin is available in English and French. 
 
 == Installation ==
 
-1.	In your WordPress admin panel, go to Plugins > New Plugin, search for "SendinBlue for WP" and click "Install now". Alternatively, download the plugin and upload the contents of mailin.zip to your plugins directory, which may be  /wp-content/plugins/. 
-2.	Activate the SendinBlue plugin through the 'Plugins' menu in WordPress. 
-3.	The "SendinBlue" tab must appear in your WordPress side navigation panel, then set your <a href="https://my.sendinblue.com/advanced/apikey/?utm_source=wordpress_plugin&utm_medium=plugin&utm_campaign=addons_page" target="_blank">SendinBlue API key</a> in the plugin homepage.
+1.	In your WordPress admin panel, go to Plugins > New Plugin, search for "Kamva for WP" and click "Install now". Alternatively, download the plugin and upload the contents of mailin.zip to your plugins directory, which may be  /wp-content/plugins/. 
+2.	Activate the Kamva plugin through the 'Plugins' menu in WordPress. 
+3.	The "Kamva" tab must appear in your WordPress side navigation panel, then set your <a href="https://my.Kamva.com/advanced/apikey/?utm_source=wordpress_plugin&utm_medium=plugin&utm_campaign=addons_page" target="_blank">Kamva API key</a> in the plugin homepage.
 
-To get a SendinBlue API key, you have to <a href="https://www.sendinblue.com/users/signup/?utm_source=wordpress_plugin&utm_medium=plugin&utm_campaign=addons_page" target="_blank">create an account</a>. It's free and takes less than 2 minutes!
+To get a Kamva API key, you have to <a href="https://www.Kamva.com/users/signup/?utm_source=wordpress_plugin&utm_medium=plugin&utm_campaign=addons_page" target="_blank">create an account</a>. It's free and takes less than 2 minutes!
 
 == Screenshots ==
-1. First, your are invited to create an account on SendinBlue then enter your API keys
-2. The Homepage gives you an overall view over your campaigns and allows you to activate SendinBlue SMTP for all transactional emails and Marketing Automation to better target your customers
+1. First, your are invited to create an account on Kamva then enter your API keys
+2. The Homepage gives you an overall view over your campaigns and allows you to activate Kamva SMTP for all transactional emails and Marketing Automation to better target your customers
 3. The Forms page gives you access to your forms list
 4. When you click on a specific form, you can configure your sign up process and customize it
 5. The Lists page allows you to see, edit or filter, your lists and your contacts
 6. The Campaigns page summarizes your most recent campaign performance and allows you to create a new campaign using our responsive and user-friendly email designer 
 7. The Statistics page gives you a global view over your performance: delivered, opened, clicked, etc.
-8. From the Widget page, you are able to add the SendinBlue widget in one or more sidebars. For each form, you can choose the fields displayed and the list where contacts are saved.
-9. The Workflows page (Marketing Automation activated) allows you to create new workflows in Sendinblue or access your logs or existing workflows
+8. From the Widget page, you are able to add the Kamva widget in one or more sidebars. For each form, you can choose the fields displayed and the list where contacts are saved.
+9. The Workflows page (Marketing Automation activated) allows you to create new workflows in Kamva or access your logs or existing workflows
 
 == Frequently Asked Questions ==
 
-= What is SendinBlue? =
-SendinBlue is a powerful all-in-one marketing platform. Over 15,000 companies around the world trust SendinBlue to deliver their emails and SMS messages. Combining many powerful features, competitive pricing  and excellent deliverability thanks to our proprietary cloud-based infrastructure, SendinBlue is available and supported in 6 languages: English, French, Spanish, German, Italian, and Portuguese.
+= What is Kamva? =
+Kamva is a powerful all-in-one marketing platform. Over 15,000 companies around the world trust Kamva to deliver their emails and SMS messages. Combining many powerful features, competitive pricing  and excellent deliverability thanks to our proprietary cloud-based infrastructure, Kamva is available and supported in 6 languages: English, French, Spanish, German, Italian, and Portuguese.
 
-= Why use SendinBlue as an SMTP relay for my website? =
-By using SendinBlue’s SMTP, you will avoid the risk of having your legitimate emails ending up in the spam folder and you will have statistics on emails sent: deliverability, opens, clicks, etc. SendinBlue’s proprietary infrastructure optimizes your deliverability, enabling you to focus on your content.
+= Why use Kamva as an SMTP relay for my website? =
+By using Kamva’s SMTP, you will avoid the risk of having your legitimate emails ending up in the spam folder and you will have statistics on emails sent: deliverability, opens, clicks, etc. Kamva’s proprietary infrastructure optimizes your deliverability, enabling you to focus on your content.
 
-= Why do I need a SendinBlue account? =
-The SendinBlue for WordPress plugin uses SendinBlue’s API to synchronize contacts, send emails and get statistics. Creating an account on SendinBlue is free and takes less than 2 minutes. Once logged into your account, you can get the API key.
+= Why do I need a Kamva account? =
+The Kamva for WordPress plugin uses Kamva’s API to synchronize contacts, send emails and get statistics. Creating an account on Kamva is free and takes less than 2 minutes. Once logged into your account, you can get the API key.
  
 = Do I have to pay to use the plugin and send emails? =
-No, the plugin is totally free and SendinBlue offers a free plan with 9,000 emails per month. If you need to send more than 9,000 emails / month, we invite you to see our pricing. For example, the Micro plan is $7.37 / month and allows you to send up to 40,000 emails per month. All SendinBlue plans are without any commitment.
+No, the plugin is totally free and Kamva offers a free plan with 9,000 emails per month. If you need to send more than 9,000 emails / month, we invite you to see our pricing. All Kamva plans are without any commitment.
 
 = How do I get my get synchronize my lists? =
-You have nothing to do - synchronization is automatic! It doesn't matter whether your lists were uploaded on your WordPress interface or on your SendinBlue account: they will always remain up-to-date on both sides.
+You have nothing to do - synchronization is automatic! It doesn't matter whether your lists were uploaded on your WordPress interface or on your Kamva account: they will always remain up-to-date on both sides.
 
 = How can I get support? =
-If you need some assistance, you can post an issue in the Support tab, or send us an email at contact@sendinblue.com.
+If you need some assistance, you can post an issue in the Support tab, or send us an email at support@Kamva.ir.
 
 = How do I create a signup form? =
 In order to create a signup form, you need to:
-1. Go to Wp admin > SendinBlue > Settings in order to define your form’s fields and settings
-2. Integrate the form in a sidebar using a widget from WP panel > Appearance > Widgets. The SendinBlue widget form should appear in your widgets list, you just to have to drag and drop the widget into the sidebar of your choice. 
+1. Go to Wp admin > Kamva > Settings in order to define your form’s fields and settings
+2. Integrate the form in a sidebar using a widget from WP panel > Appearance > Widgets. The Kamva widget form should appear in your widgets list, you just to have to drag and drop the widget into the sidebar of your choice. 
 
 
 == Changelog ==
@@ -121,7 +121,7 @@ In order to create a signup form, you need to:
 = 2.9.2 =
 * Add compliance note block to forms
 * Add multi list subscription option
-* fix Sendinblue account info display issue.
+* fix Kamva account info display issue.
 
 = 2.9.1 =
 * fix "reply-to" email address issue
@@ -152,7 +152,7 @@ In order to create a signup form, you need to:
 * fix date format issue
 
 = 2.7.3 =
-* add independence between SendinBlue plugins
+* add independence between Kamva plugins
 
 = 2.7.2 =
 * add some note on plugin forms page
@@ -168,7 +168,7 @@ In order to create a signup form, you need to:
 * fix re-subscription issue for unsubscribed users
 
 = 2.6.13 =
-* Fix sendinblue dev url to prod url in list page
+* Fix Kamva dev url to prod url in list page
 * Change google captcha function
 
 = 2.6.12 =
@@ -281,7 +281,7 @@ In order to create a signup form, you need to:
 * Fix some warning issue and translation
 
 = 2.4.4 =
-* Update sendinblue API library into V2.0
+* Update Kamva API library into V2.0
 
 = 2.4.3 =
 * Fix some warning issue
@@ -308,7 +308,7 @@ In order to create a signup form, you need to:
 * Improve error message.
 
 = 2.3.10 =
-* Add the functionality to integrate the category attributes of sendinblue.
+* Add the functionality to integrate the category attributes of Kamva.
 * Improve loading of setting page.
 
 = 2.3.9 =
@@ -343,7 +343,7 @@ In order to create a signup form, you need to:
 * Update sender setting.
 
 = 2.3.0 =
-* Updated sendinblue api into v2.0.
+* Updated Kamva api into v2.0.
 Please use the Access Key of API 2.0 in setting of plugin after update plugin.
 
 = 2.2.5 =
@@ -392,6 +392,6 @@ Please use the Access Key of API 2.0 in setting of plugin after update plugin.
 * Fix compatible error
 
 = 2.0 =
-* update sendinblue api
+* update Kamva api
 * Add functionality (List,Contact,Stat,Form Management)
 * Update UI user-friendly

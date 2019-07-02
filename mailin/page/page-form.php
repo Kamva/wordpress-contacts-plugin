@@ -160,7 +160,7 @@ if ( ! class_exists( 'SIB_Page_Form' ) ) {
 				<div class="page-header"><strong><?php esc_attr_e( 'Forms', 'sib_lang' ); ?></strong></div>
 
 					<form method="post" class="sib-forms-wrapper" style="padding:20px;min-height: 500px;">
-						<i style="font-size: 13px;"><?php esc_attr_e( "Note: Forms created in SendinBlue plugin for WordPress won't be displayed in Forms section in SendinBlue application", 'sib_lang' ); ?></i>
+						<i style="font-size: 13px;"><?php esc_attr_e( "Note: Forms created in Kamva plugin for WordPress won't be displayed in Forms section in Kamva application", 'sib_lang' ); ?></i>
 			<?php
 			$this->forms->display();
 			?>
@@ -545,11 +545,11 @@ if ( ! class_exists( 'SIB_Page_Form' ) ) {
 										<input type="hidden" id="sib_hidden_submit" data-type="submit"
 											   data-name="submit" data-text="<?php esc_attr_e( 'Subscribe', 'sib_lang' ); ?>">
 										<input type="hidden" id="sib_hidden_message_1"
-											   value="<?php esc_attr_e( 'Select SendinBlue Attribute', 'sib_lang' ); ?>">
+											   value="<?php esc_attr_e( 'Select Kamva Attribute', 'sib_lang' ); ?>">
 										<input type="hidden" id="sib_hidden_message_2"
-											   value="<?php esc_attr_e( 'SendinBlue merge fields : Normal', 'sib_lang' ); ?>">
+											   value="<?php esc_attr_e( 'Kamva merge fields : Normal', 'sib_lang' ); ?>">
 										<input type="hidden" id="sib_hidden_message_3"
-											   value="<?php esc_attr_e( 'SendinBlue merge fields : Category', 'sib_lang' ); ?>">
+											   value="<?php esc_attr_e( 'Kamva merge fields : Category', 'sib_lang' ); ?>">
 										<input type="hidden" id="sib_hidden_message_4"
 											   value="<?php esc_attr_e( 'Other', 'sib_lang' ); ?>">
 										<input type="hidden" id="sib_hidden_message_5"
@@ -591,7 +591,7 @@ if ( ! class_exists( 'SIB_Page_Form' ) ) {
 								<div id="sib_form_alert_message" class="alert alert-danger alert-dismissable fade in"
 									 role="alert" style="display: none;">
 									<span id="sib_disclaim_smtp"
-										  style="display: none;"><?php _e( 'Confirmation emails will be sent through your own email server, but you have no guarantees on their deliverability. <br/> <a href="https://app-smtp.sendinblue.com/" target="_blank">Click here</a> to send your emails through SendinBlue in order to improve your deliverability and get statistics', 'sib_lang' ); ?></span>
+										  style="display: none;"><?php _e( 'Confirmation emails will be sent through your own email server, but you have no guarantees on their deliverability. <br/> <a href="https://smtp.kamva.ir" target="_blank">Click here</a> to send your emails through Kamva in order to improve your deliverability and get statistics', 'sib_lang' ); ?></span>
 									<span id="sib_disclaim_do_template"
 										  style="display: none;"><?php _e( 'The template you selected does not include a link [DOUBLEOPTIN] to allow subscribers to confirm their subscription. <br/> Please edit the template to include a link with [DOUBLEOPTIN] as URL.', 'sib_lang' ); ?></span>
                                     <span id="sib_disclaim_confirm_template"
@@ -648,7 +648,7 @@ if ( ! class_exists( 'SIB_Page_Form' ) ) {
 									<div class="col-md-3" id="sib_template_id_area">
 									</div>
 									<div class="col-md-4">
-										<a href="https://my.sendinblue.com/camp/listing#temp_active_m" class="col-md-12"
+										<a href="https://email.kamva.ir/camp/listing#temp_active_m" class="col-md-12"
 										   target="_blank"><i
 												class="fa fa-angle-right"></i> <?php esc_attr_e( 'Set up my templates', 'sib_lang' ); ?>
 										</a>
@@ -682,7 +682,7 @@ if ( ! class_exists( 'SIB_Page_Form' ) ) {
 									<div class="col-md-3" id="sib_doubleoptin_template_id_area">
 									</div>
 									<div class="col-md-4">
-										<a href="https://my.sendinblue.com/camp/listing?utm_source=wordpress_plugin&utm_medium=plugin&utm_campaign=module_link#temp_active_m"
+										<a href="https://email.kamva.ir/camp/listing?utm_source=wordpress_plugin&utm_medium=plugin&utm_campaign=module_link#temp_active_m"
 										   class="col-md-12" target="_blank"><i
 												class="fa fa-angle-right"></i> <?php esc_attr_e( 'Set up my templates', 'sib_lang' ); ?>
 										</a>
@@ -703,7 +703,7 @@ For your information, you cannot select a template with the tag [DOUBLEOPTIN].',
                                         <div class="col-md-5" id="sib_final_confirm_template_id_area">
                                         </div>
                                         <div class="col-md-4">
-                                            <a href="https://my.sendinblue.com/camp/listing?utm_source=wordpress_plugin&utm_medium=plugin&utm_campaign=module_link#temp_active_m"
+                                            <a href="https://email.kamva.ir/camp/listing?utm_source=wordpress_plugin&utm_medium=plugin&utm_campaign=module_link#temp_active_m"
                                                class="col-md-12" target="_blank"><i
                                                         class="fa fa-angle-right"></i> <?php esc_attr_e( 'Set up my templates', 'sib_lang' ); ?>
                                             </a>

@@ -8,7 +8,7 @@
 		{
 		    if(!function_exists('curl_init'))
 		    {
-		        throw new Exception('Sendinblue requires CURL module');
+		        throw new Exception('Kamva requires CURL module');
 		    }
 		    $this->base_url = 'https://in-automate.sendinblue.com/p';
 		    $this->api_key = $api_key;

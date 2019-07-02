@@ -24,13 +24,13 @@ msgid "Please confirm subscription"
 msgstr "Confirmer l'inscription "
 
 #: ../inc/sib-api-manager.php:459 ../page/page-home.php:616
-msgid "no-reply@sendinblue.com"
-msgstr "no-reply@sendinblue.com"
+msgid "no-reply@kamva.ir"
+msgstr "no-reply@kamva.ir"
 
 #: ../inc/sib-api-manager.php:460 ../page/page-home.php:39
 #: ../page/page-home.php:465 ../page/page-home.php:617
-msgid "SendinBlue"
-msgstr "SendinBlue"
+msgid "Kamva"
+msgstr "Kamva"
 
 #: ../inc/sib-api-manager.php:616
 msgid "Thank you for subscribing"
@@ -41,8 +41,8 @@ msgid "You have just subscribed to the newsletter of "
 msgstr "Vous vous êtes inscrit à la newsletter de "
 
 #: ../inc/sib-api-manager.php:638
-msgid "-SendinBlue"
-msgstr "-SendinBlue"
+msgid "-Kamva"
+msgstr "-Kamva"
 
 #: ../inc/sib-api-manager.php:716
 msgid "Unsubscribe"
@@ -167,16 +167,16 @@ msgid "Subscribe"
 msgstr "S'inscrire"
 
 #: ../page/page-form.php:208
-msgid "Select SendinBlue Attribute"
-msgstr "Sélectionner un attribut SendinBlue"
+msgid "Select Kamva Attribute"
+msgstr "Sélectionner un attribut Kamva"
 
 #: ../page/page-form.php:210
-msgid "SendinBlue merge fields : Normal"
-msgstr "Champs synchronisé avec SendinBlue : normal"
+msgid "Kamva merge fields : Normal"
+msgstr "Champs synchronisé avec Kamva : normal"
 
 #: ../page/page-form.php:212
-msgid "SendinBlue merge fields : Category"
-msgstr "Champs synchronisé avec SendinBlue : catégorie"
+msgid "Kamva merge fields : Category"
+msgstr "Champs synchronisé avec Kamva : catégorie"
 
 #: ../page/page-form.php:214
 msgid "Other"
@@ -264,14 +264,14 @@ msgstr "Processus d'inscription"
 #: ../page/page-form.php:330
 msgid ""
 "Confirmation emails will be sent through your own email server, but you have "
-"no guarantees on their deliverability. <br/> <a href=\"https://app-smtp."
-"sendinblue.com/\" target=\"_blank\">Click here</a> to send your emails "
-"through SendinBlue in order to improve your deliverability and get statistics"
+"no guarantees on their deliverability. <br/> <a href=\"https://smtp."
+"kamva.ir/\" target=\"_blank\">Click here</a> to send your emails "
+"through Kamva in order to improve your deliverability and get statistics"
 msgstr ""
 "Les emails de confirmations seront envoyé via votre propre serveur mail, "
 "mais vous n'aurez pasde garanties concernant la délivrabilité <br/> <a href="
-"\"https://app-smtp.sendinblue.com/\" target=\"_blank\">Cliquez ici</a> pour "
-"envoyer vos mailsvia Sendinblue pour améliorer votre délivrabilité et "
+"\"https://smtp.kamva.ir/\" target=\"_blank\">Cliquez ici</a> pour "
+"envoyer vos mailsvia Kamva pour améliorer votre délivrabilité et "
 "obtenir des statistiques."
 
 #: ../page/page-form.php:332
@@ -447,15 +447,15 @@ msgid "Step"
 msgstr "Etape"
 
 #: ../page/page-home.php:112
-msgid "Create a SendinBlue Account"
-msgstr "Créer un compte SendinBlue"
+msgid "Create a Kamva Account"
+msgstr "Créer un compte Kamva"
 
 #: ../page/page-home.php:116
 msgid ""
-"By Creating a free SendinBlue account, you will have access to send a "
+"By Creating a free Kamva account, you will have access to send a "
 "confirmation message."
 msgstr ""
-"En créant un compte gratuit SendinBlue, vous pourrez envoyer un message de "
+"En créant un compte gratuit Kamva, vous pourrez envoyer un message de "
 "confirmation après inscription."
 
 #: ../page/page-home.php:118
@@ -463,8 +463,8 @@ msgid "Collect your contacts and upload your lists"
 msgstr "Collectez vos contacts et importez vos listes"
 
 #: ../page/page-home.php:119
-msgid "Use SendinBlue SMTP to send your transactional emails"
-msgstr "Utilisez le SMTP SendinBlue pour vos emails transactionnels"
+msgid "Use Kamva SMTP to send your transactional emails"
+msgstr "Utilisez le SMTP Kamva pour vos emails transactionnels"
 
 #: ../page/page-home.php:120
 msgid "Email marketing builders"
@@ -479,8 +479,8 @@ msgid "See all of"
 msgstr "Consulter toutes les"
 
 #: ../page/page-home.php:122
-msgid "SendinBlue's features"
-msgstr "Fonctionnalités de Sendinblue"
+msgid "Kamva's features"
+msgstr "Fonctionnalités de Kamva"
 
 #: ../page/page-home.php:124
 msgid "Create an account"
@@ -499,7 +499,7 @@ msgid "Please input correct information."
 msgstr "Merci de rentrer des clés valides"
 
 #: ../page/page-home.php:136
-msgid "Please install curl on site to use sendinblue plugin."
+msgid "Please install curl on site to use Kamva plugin."
 msgstr "S'il vous plaît installer CURL sur le serveur"
 
 #: ../page/page-home.php:137
@@ -508,12 +508,12 @@ msgstr "Erreur Curl."
 
 #: ../page/page-home.php:140
 msgid ""
-"Once your have created your SendinBlue account, activate this plugin to send "
-"all your transactional emails by using SendinBlue SMTP to make sure all of "
+"Once your have created your Kamva account, activate this plugin to send "
+"all your transactional emails by using Kamva SMTP to make sure all of "
 "your emails get to your contacts inbox."
 msgstr ""
-"Une fois votre compte SendinBlue créé, activez ce plugin pour envoyer tous "
-"vos emails transactionnels avec SendinBlue SMTP. Vous vous assurerez que vos "
+"Une fois votre compte Kamva créé, activez ce plugin pour envoyer tous "
+"vos emails transactionnels avec Kamva SMTP. Vous vous assurerez que vos "
 "contacts reçoivent vos emails."
 
 #: ../page/page-home.php:141
@@ -610,12 +610,12 @@ msgstr "Emails transactionnels"
 #: ../page/page-home.php:312
 msgid ""
 "Unfortunately, your \"Transactional emails\" are not activated because your "
-"SendinBlue SMTP account is not active. Please send an email to "
-"contact@sendinblue.com in order to ask for SMTP account activation"
+"Kamva SMTP account is not active. Please send an email to "
+"support@Kamva.ir in order to ask for SMTP account activation"
 msgstr ""
 "Malheureusement, vous ne pouvez pas activer \"Emails transactionnels\" parce "
-"que votre compte SMTP SendinBlue n'a pas été validé. Merci d'envoyer un "
-"email à contact@sendinblue.com afin de demander l'activation de votre compte "
+"que votre compte SMTP Kamva n'a pas été validé. Merci d'envoyer un "
+"email à support@kamva.ir afin de demander l'activation de votre compte "
 "SMTP"
 
 #: ../page/page-home.php:316
@@ -627,15 +627,15 @@ msgid "Please input valid email."
 msgstr "Insérer une adresse valide"
 
 #: ../page/page-home.php:319
-msgid "Activate email through SendinBlue"
-msgstr "Activer les emails avec SendinBlue "
+msgid "Activate email through Kamva"
+msgstr "Activer les emails avec Kamva "
 
 #: ../page/page-home.php:329
 msgid ""
-"Choose \"Yes\" if you want to use SendinBlue SMTP to send transactional "
+"Choose \"Yes\" if you want to use Kamva SMTP to send transactional "
 "emails"
 msgstr ""
-"Choisir \"Oui\" pour utiliser SMTP SendinBlue pour envoyer vos emails "
+"Choisir \"Oui\" pour utiliser SMTP Kamva pour envoyer vos emails "
 "transactionnels"
 
 #: ../page/page-home.php:338
@@ -674,11 +674,11 @@ msgstr "Le script Marketing Automation a été désinstallé"
 
 #: ../page/page-home.php:373
 msgid ""
-"To activate Marketing Automation (beta), please go to your SendinBlue's "
-"account or contact us at contact@sendinblue.com"
+"To activate Marketing Automation (beta), please go to your Kamva's "
+"account or contact us at support@Kamva.ir"
 msgstr ""
 "Pour activer Marketing Automation (beta), veuillez vous connecter à votre "
-"compte SendinBlue ou contactez-nous à contact@sendinblue.com"
+"compte Kamva ou contactez-nous à support@Kamva.ir"
 
 #: ../page/page-home.php:374
 msgid ""
@@ -689,33 +689,33 @@ msgstr ""
 "aux données Marketing Automation et aux scénarios."
 
 #: ../page/page-home.php:376
-msgid "Activate Marketing Automation through SendinBlue"
-msgstr "Activer Marketing Automation via Sendinblue"
+msgid "Activate Marketing Automation through Kamva"
+msgstr "Activer Marketing Automation via Kamva"
 
 #: ../page/page-home.php:383
 msgid ""
-"Choose \"Yes\" if you want to use SendinBlue Automation to track your "
+"Choose \"Yes\" if you want to use Kamva Automation to track your "
 "website activity"
 msgstr ""
-"Choisissez \"Oui\" si vous souhaitez utiliser Sendinblue Automation "
+"Choisissez \"Oui\" si vous souhaitez utiliser Kamva Automation "
 "poursuivre l'activité de votre site web"
 
 #: ../page/page-home.php:387
 #, php-format
-msgid "%s Explore our resource %s to learn more about SendinBlue Automation"
+msgid "%s Explore our resource %s to learn more about Kamva Automation"
 msgstr ""
-"%s Explorez nos resources %s pour en savoir plus sur l'Automation Sendinblue"
+"%s Explorez nos resources %s pour en savoir plus sur l'Automation Kamva"
 
 #: ../page/page-home.php:407
-msgid "About SendinBlue"
-msgstr "A propos de SendinBlue"
+msgid "About Kamva"
+msgstr "A propos de Kamva"
 
 #: ../page/page-home.php:409
 msgid ""
-"SendinBlue is an online software that allows you to send emails and SMS. "
+"Kamva is an online software that allows you to send emails and SMS. "
 "Easily manage your Marketing campaigns, transactional emails and SMS."
 msgstr ""
-"SendinBlue est un logiciel en ligne qui permet d'envoyer SMS et emails. "
+"Kamva est un logiciel en ligne qui permet d'envoyer SMS et emails. "
 "Gérer de manière simple et efficace vos campagnes Marketing, SMS et emails  "
 "transactionnels"
 
@@ -749,10 +749,10 @@ msgstr "FAQ"
 
 #: ../page/page-home.php:433
 msgid ""
-"Please click on below link if you can't see updated setting on SendinBlue."
+"Please click on below link if you can't see updated setting on Kamva."
 msgstr ""
 "Veuillez cliquez sur le lien ci-dessous si vous ne voyez pas vos settings "
-"mis à jour sur SendinBlue"
+"mis à jour sur Kamva"
 
 #: ../page/page-home.php:434
 msgid "Sync"
@@ -769,10 +769,10 @@ msgstr "Noter ce plugin"
 #: ../page/page-home.php:469
 msgid ""
 "You are currently not logged in. Create an account or log in to benefit from "
-"all of SendinBlue's features an your Wordpress site."
+"all of Kamva's features an your Wordpress site."
 msgstr ""
 "Vous n'êtes actuellement pas connecté. Créez un compte ou connectez vous "
-"pour bénéficier de toutes les fonctionnalités de SendinBlue pour votre site "
+"pour bénéficier de toutes les fonctionnalités de Kamva pour votre site "
 "Wordpress"
 
 #: ../page/page-home.php:472
@@ -800,8 +800,8 @@ msgid "Free Subscribe Now"
 msgstr "S'inscrire gratuitement"
 
 #: ../page/page-home.php:609
-msgid "[SendinBlue SMTP] test email"
-msgstr "email de test [SendinBlue SMTP]"
+msgid "[Kamva SMTP] test email"
+msgstr "email de test [Kamva SMTP]"
 
 #: ../page/page-lists.php:39
 msgid "Lists"
@@ -910,15 +910,15 @@ msgstr "Statistiques"
 
 #: ../sendinblue.php:767
 msgid ""
-"You cannot to use SendinBlue SMTP now because wp_mail has been declared by "
+"You cannot to use Kamva SMTP now because wp_mail has been declared by "
 "another process or plugin. "
 msgstr ""
-"Vous ne pouvez pas utilisez le SMTP Sendinblue car wp_mail a été déclaré par "
+"Vous ne pouvez pas utilisez le SMTP Kamva car wp_mail a été déclaré par "
 "un autre process ou plugin"
 
 #: ../widget/widget_form.php:31
-msgid "SendinBlue Newsletter"
-msgstr "Newsletter SendinBlue"
+msgid "Kamva Newsletter"
+msgstr "Newsletter Kamva"
 
 #: ../widget/widget_form.php:43
 msgid "Widget Title"
@@ -965,8 +965,8 @@ msgid "Add Terms URL"
 msgstr "Ajouter l'URL de consultation des CGU"
 
 #: ../page/page-form.php:123
-msgid "Note: Forms created in SendinBlue plugin for Wordpress won't be displayed in Forms section in SendinBlue application"
-msgstr "Note : Les formulaires créés dans le plugin SendinBlue pour Wordpress ne seront pas visibles dans la section Formulaires de l'application SendinBlue"
+msgid "Note: Forms created in Kamva plugin for Wordpress won't be displayed in Forms section in Kamva application"
+msgstr "Note : Les formulaires créés dans le plugin Kamva pour Wordpress ne seront pas visibles dans la section Formulaires de l'application Kamva"
 
 #: ../page/page-home.php:464
 msgid "Let everyone know you like this plugin through a review!"
@@ -981,8 +981,8 @@ msgid "Recommend this plugin"
 msgstr "Recommander ce plugin"
 
 #: ../page/page-home.php:466
-msgid "Recommend the SendinBlue plugin"
-msgstr "Recommander le plugin SendinBlue"
+msgid "Recommend the Kamva plugin"
+msgstr "Recommander le plugin Kamva"
 
 #: ../sendinblue.php:311
 msgid "Please fill out valid email address"
@@ -1072,15 +1072,15 @@ msgstr "Votre adresse email est utilisée uniquement pour vous envoyer notre new
 #~ msgid ""
 #~ "Confirmation emails will be sent through your own email server, but you "
 #~ "have no guarantees on their deliverability. <br/> <a href=\"https://app-"
-#~ "smtp.sendinblue.com\" target=\"_blank\">Click here</a> to send your "
-#~ "emails through SendinBlue in order to improve your deliverability and get "
+#~ "smtp.kamva.ir\" target=\"_blank\">Click here</a> to send your "
+#~ "emails through Kamva in order to improve your deliverability and get "
 #~ "statistics"
 #~ msgstr ""
 #~ "Les emails de confirmation seront envoyés par votre propre serveur email. "
 #~ "Vous n'avez donc aucune garantie sur la délivrabilité de vos emails. <br/"
 #~ "> Pour améliorer la délivrabilité et obtenir des statistiques, activez "
-#~ "l'envoi des emails via le serveur SMTP de SendinBlue en <a href=\"https://"
-#~ "app-smtp.sendinblue.com\" target=\"_blank\">cliquant ici</a>"
+#~ "l'envoi des emails via le serveur SMTP de Kamva en <a href=\"https://"
+#~ "smtp.kamva.ir\" target=\"_blank\">cliquant ici</a>"
 
 #~ msgid "Sign up"
 #~ msgstr "S'inscrire"
@@ -1099,16 +1099,16 @@ msgstr "Votre adresse email est utilisée uniquement pour vous envoyer notre new
 
 #~ msgid ""
 #~ "Unfortunately, you wannot activate \"Transactional emails\"  because your "
-#~ "SendinBlue SMTP account is not valid. Please send an email to "
-#~ "contact@sendinblue.com in order to ask for SMTP account activation"
+#~ "Kamva SMTP account is not valid. Please send an email to "
+#~ "support@kamva.ir in order to ask for SMTP account activation"
 #~ msgstr ""
 #~ "Malheureusement, vous ne pouvez pas activer \"Emails transactionnels\" "
 #~ "parce que votre compte SMTP SendinBlue n'a pas été validé. Merci "
-#~ "d'envoyer un email à contact@sendinblue.com afin de demander l'activation "
+#~ "d'envoyer un email à support@kamva.ir afin de demander l'activation "
 #~ "de votre compte SMTP"
 
-#~ msgid "SendinBlue merge fields"
-#~ msgstr "Champs synchronisé avec SendinBlue"
+#~ msgid "Kamva merge fields"
+#~ msgstr "Champs synchronisé avec Kamva"
 
 #~ msgid "Double Optin"
 #~ msgstr "Double Optin"
@@ -1131,16 +1131,16 @@ msgstr "Votre adresse email est utilisée uniquement pour vous envoyer notre new
 
 #~ msgid ""
 #~ "Confirmation emails will be sent through your own email server, but you "
-#~ "have no guarantees on their deliverability. <a href=\"https://app-smtp."
-#~ "sendinblue.com\" target=\"_blank\">Click here</a> to send your emails "
-#~ "through SendinBlue in order to improve your deliverability and get "
+#~ "have no guarantees on their deliverability. <a href=\"https://smtp."
+#~ "Kamva.ir\" target=\"_blank\">Click here</a> to send your emails "
+#~ "through Kamva in order to improve your deliverability and get "
 #~ "statistics"
 #~ msgstr ""
 #~ "Les emails de confirmation seront envoyés par votre propre serveur email. "
 #~ "Vous n'avez donc aucune garantie sur la délivrabilité de vos emails. Pour "
 #~ "améliorer la délivrabilité et obtenir des statistiques, activez l'envoi "
-#~ "des emails via le serveur SMTP de SendinBlue en <a href=\"https://app-"
-#~ "smtp.sendinblue.com\" target=\"_blank\">cliquant ici</a>"
+#~ "des emails via le serveur SMTP de Kamva en <a href=\"https://app-"
+#~ "smtp.Kamva.ir\" target=\"_blank\">cliquant ici</a>"
 
 #~ msgid ""
 #~ "You can choose to add a step in the confirmation process, by requiring a "
@@ -1208,13 +1208,13 @@ msgstr "Votre adresse email est utilisée uniquement pour vous envoyer notre new
 #~ msgid "your account"
 #~ msgstr "votre compte"
 
-#~ msgid "SendinBlue API Access Key"
+#~ msgid "Kamva API Access Key"
 #~ msgstr "Clé API d'accès"
 
 #~ msgid "Please input Access key to activate."
 #~ msgstr "Insérez votre clé API d'accès pour l'activation"
 
-#~ msgid "SendinBlue API Secret Key"
+#~ msgid "Kamva API Secret Key"
 #~ msgstr "Clé API secrète"
 
 #~ msgid "My account "

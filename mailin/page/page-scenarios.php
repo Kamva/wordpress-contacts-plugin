@@ -110,9 +110,9 @@ if ( ! class_exists( 'SIB_Page_Scenarios' ) ) {
 
 		/** Generate main page */
 		function generate_main_page() {
-			$ma_link = 'https://automation.sendinblue.com/scenarios/?create_new_scenario';
-			$ma_exist_link = 'https://automation.sendinblue.com/scenarios/?utm_source=wordpress_plugin&utm_medium=plugin&utm_campaign=module_link';
-			$ma_logs_link = 'https://automation.sendinblue.com/log/scenarios/?utm_source=wordpress_plugin&utm_medium=plugin&utm_campaign=module_link';
+			$ma_link = 'https://automation.kamva.ir/scenarios/?create_new_scenario';
+			$ma_exist_link = 'https://automation.kamva.ir/scenarios/?utm_source=wordpress_plugin&utm_medium=plugin&utm_campaign=module_link';
+			$ma_logs_link = 'https://automation.kamva.ir/log/scenarios/?utm_source=wordpress_plugin&utm_medium=plugin&utm_campaign=module_link';
 
 			?>
 			<h2 style="text-align: center;"><?php esc_attr_e( 'Create your workflow', 'sib_lang' ); ?></h2>

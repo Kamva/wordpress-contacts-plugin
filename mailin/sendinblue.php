@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: SendinBlue Subscribe Form And WP SMTP
- * Plugin URI: https://www.sendinblue.com/?r=wporg
+ * Plugin URI: https://kamva.ir/email?r=wporg
  * Description: Easily send emails from your WordPress blog using SendinBlue SMTP and easily add a subscribe form to your site
  * Version: 2.9.3
  * Author: SendinBlue
- * Author URI: https://www.sendinblue.com/?r=wporg
+ * Author URI: https://kamva.ir/email?r=wporg
  * License: GPLv2 or later
  *
  * @package SIB
@@ -730,7 +730,7 @@ if ( ! class_exists( 'SIB_Manager' ) ) {
 		}
 
 		/**
-		 * To send the transactional email via Sendinblue
+		 * To send the transactional email via Kamva
 		 * hook wp_mail
 		 *
 		 * @param string $to - reception email.
@@ -1029,7 +1029,7 @@ if ( ! class_exists( 'SIB_Manager' ) ) {
 				$lang_prefix = substr( get_bloginfo( 'language' ), 0, 2 );
 				$lang = self::getLanguageName( $lang_prefix );
 				$class = 'error';
-				$message = sprintf( 'Please note that your SendinBlue account is in %s, but SendinBlue WordPress plugin is only available in English / French for now. Sorry for inconvenience.', $lang );
+				$message = sprintf( 'Please note that your Kamva account is in %s, but Kamva WordPress plugin is only available in English / French for now. Sorry for inconvenience.', $lang );
 				if ( 'en' !== $lang_prefix && 'fr' !== $lang_prefix ) {
 					echo ( "<div class=\"$class\" style='margin-left: 2px;margin-bottom: 4px;'> <p>$message<a class='' href='?dismiss_admin_lang_notice=1'> No problem...</a></p></div>" );
 				}
@@ -1041,7 +1041,7 @@ if ( ! class_exists( 'SIB_Manager' ) ) {
 		 */
 		static function wpMailNotices() {
 			if ( self::$wp_mail_conflict ) {
-				echo ( '<div class="error"><p>' . __( 'You cannot use SendinBlue SMTP now because wp_mail has been declared by another process or plugin. ', 'sib_lang' ) . '</p></div>' );
+				echo ( '<div class="error"><p>' . __( 'You cannot use Kamva SMTP now because wp_mail has been declared by another process or plugin. ', 'sib_lang' ) . '</p></div>' );
 			}
 		}
 
@@ -1107,7 +1107,7 @@ if ( ! class_exists( 'SIB_Manager' ) ) {
 			if ( 'sib_page_form' === $page && 'edit' === $action ) {
 				?>
 				<div class="panel panel-default text-left box-border-box  small-content">
-					<div class="panel-heading"><strong><?php esc_attr_e( 'About SendinBlue', 'sib_lang' ); ?></strong></div>
+					<div class="panel-heading"><strong><?php esc_attr_e( 'About Kamva', 'sib_lang' ); ?></strong></div>
 					<div class="panel-body">
 						<p>
 							<label for='sib_form_language'><?php esc_attr_e( 'Language of this form:', 'sib_lang' ); ?> </label>
