@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name: SendinBlue Subscribe Form And WP SMTP
+ * Plugin Name: Kamva Email Subscribe Form And WP SMTP
  * Plugin URI: https://kamva.ir/email?r=wporg
- * Description: Easily send emails from your WordPress blog using SendinBlue SMTP and easily add a subscribe form to your site
+ * Description: Easily send emails from your WordPress blog using Kamva SMTP and easily add a subscribe form to your site
  * Version: 2.9.3
- * Author: SendinBlue
+ * Author: Kamva
  * Author URI: https://kamva.ir/email?r=wporg
  * License: GPLv2 or later
  *

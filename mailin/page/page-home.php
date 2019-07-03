@@ -36,7 +36,7 @@ if ( ! class_exists( 'SIB_Page_Home' ) ) {
 		 * Constructs new page object and adds entry to WordPress admin menu
 		 */
 		function __construct() {
-			add_menu_page( __( 'SendinBlue', 'sib_lang' ), __( 'SendinBlue', 'sib_lang' ), 'manage_options', self::PAGE_ID, array( &$this, 'generate' ), SIB_Manager::$plugin_url . '/img/favicon.ico' );
+			add_menu_page( __( 'Kamva Email', 'sib_lang' ), __( 'Kamva Email', 'sib_lang' ), 'manage_options', self::PAGE_ID, array( &$this, 'generate' ), SIB_Manager::$plugin_url . '/img/favicon.ico' );
 			$this->page_hook = add_submenu_page( self::PAGE_ID, __( 'Home', 'sib_lang' ), __( 'Home', 'sib_lang' ), 'manage_options', self::PAGE_ID, array( &$this, 'generate' ) );
 			add_action( 'load-' . $this->page_hook, array( &$this, 'init' ) );
 			add_action( 'admin_print_scripts-' . $this->page_hook, array( $this, 'enqueue_scripts' ) );

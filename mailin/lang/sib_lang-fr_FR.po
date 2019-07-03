@@ -94,19 +94,19 @@ msgid "Add New Form"
 msgstr "Ajouter un nouveau formulaire"
 
 #: ../model/model-forms.php:268
-msgid "Thank you, you have successfully registered !"
+msgid "با تشکر، شما با موفقیت ثبت نام کردید!"
 msgstr "Vous êtes désormais inscrit !"
 
 #: ../model/model-forms.php:269
-msgid "Something wrong occured"
+msgid "مشکلی پیش آمده"
 msgstr "Une erreur est survenue"
 
 #: ../model/model-forms.php:270
-msgid "You have already registered"
+msgid "شما قبلا ثبت‌نام کردید"
 msgstr "Vous êtes déjà inscrit"
 
 #: ../model/model-forms.php:271
-msgid "Your email address is invalid"
+msgid "آدرس ایمیل اشتباه است"
 msgstr "Cette adresse email n'est pas valide"
 
 #: ../page/page-campaigns.php:39 ../page/page-home.php:220

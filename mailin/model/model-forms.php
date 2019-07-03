@@ -339,11 +339,11 @@ EOD;
 			$result = array(
 				'html' => $html,
 				'css' => $css,
-				'successMsg' => esc_attr( __( 'Thank you, you have successfully registered !', 'sib_lang' ) ),
-				'errorMsg' => esc_attr( __( 'Something wrong occured', 'sib_lang' ) ),
-				'existMsg' => esc_attr( __( 'You have already registered', 'sib_lang' ) ),
-				'invalidMsg' => esc_attr( __( 'Your email address is invalid', 'sib_lang' ) ),
-                'requiredMsg' => esc_attr(__('Please fill out this field', 'sib_lang'))
+				'successMsg' => esc_attr( __( 'با تشکر، شما با موفقیت ثبت نام کردید!', 'sib_lang' ) ),
+				'errorMsg' => esc_attr( __( 'مشکلی پیش آمده', 'sib_lang' ) ),
+				'existMsg' => esc_attr( __( 'شما قبلا ثبت‌نام کردید', 'sib_lang' ) ),
+				'invalidMsg' => esc_attr( __( 'آدرس ایمیل اشتباه است', 'sib_lang' ) ),
+                'requiredMsg' => esc_attr(__('لطفا این فرم را کامل پر کنید', 'sib_lang'))
 			);
 			return $result;
 		}
