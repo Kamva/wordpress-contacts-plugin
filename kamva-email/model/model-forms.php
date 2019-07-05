@@ -284,11 +284,11 @@ if ( ! class_exists( 'SIB_Forms' ) ) {
 		public static function getDefaultForm() {
 			$html = <<<EOD
 <p class="sib-email-area">
-    <label class="sib-email-area">Email Address*</label>
+    <label class="sib-email-area">ایمیل*</label>
     <input type="email" class="sib-email-area" name="email" required="required">
 </p>
 <p class="sib-NAME-area">
-    <label class="sib-NAME-area">Name</label>
+    <label class="sib-NAME-area">نام و نام خانوادگی</label>
     <input type="text" class="sib-NAME-area" name="NAME" >
 </p>
 <p>
@@ -301,6 +301,7 @@ EOD;
     -moz-box-sizing:border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    direction:rtl;
 }
 [form] input[type=text],[form] input[type=email], [form] select {
     width: 100%;

@@ -8,7 +8,7 @@
  * Author URI: https://kamva.ir/email?r=wporg
  * License: GPLv2 or later
  *
- * @package SIB
+ * @package KEM
  */
 
 /*
