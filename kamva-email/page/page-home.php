@@ -610,7 +610,7 @@ if ( ! class_exists( 'SIB_Page_Home' ) ) {
 									<a href="https://email.kamva.ir/" target="_blank"><i><?php esc_attr_e( 'Have an account?', 'sib_lang' ); ?></i></a>
 								</div>
 								<div class="col-md-6">
-									<a href="https://kamva.ir/email" target="_blank" class="btn btn-default"><i class="fa fa-angle-double-right"></i>&nbsp;<?php esc_attr_e( 'Free Subscribe Now', 'sib_lang' ); ?>&nbsp;<i class="fa fa-angle-double-left"></i></a>
+									<a href="https://kamva.ir/email" target="_blank" class="btn btn-default"><i class="fa fa-angle-double-right"></i>&nbsp;<?php esc_attr_e( 'Register Now', 'sib_lang' ); ?>&nbsp;<i class="fa fa-angle-double-left"></i></a>
 								</div>
 							</div>
 						</div>

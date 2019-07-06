@@ -796,7 +796,7 @@ msgid "Have an account?"
 msgstr "Vous avez un compte ?"
 
 #: ../page/page-home.php:482
-msgid "Free Subscribe Now"
+msgid "Register Now"
 msgstr "S'inscrire gratuitement"
 
 #: ../page/page-home.php:609
