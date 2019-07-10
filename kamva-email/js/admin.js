@@ -458,14 +458,14 @@ $jQ(document).ready(function(){
         /* without node.focus() IE will returns -1 when focus is not on node */
         if(node.selectionStart) return node.selectionStart;
         else if(!document.selection) return 0;
-        var c		= "\001";
-        var sel	= document.selection.createRange();
-        var dul	= sel.duplicate();
+        var c       = "\001";
+        var sel = document.selection.createRange();
+        var dul = sel.duplicate();
         dul.moveToElementText(node);
-        sel.text	= c;
-        var len		= (dul.text.indexOf(c));
+        sel.text    = c;
+        var len     = (dul.text.indexOf(c));
         sel.moveStart('character',-1);
-        sel.text	= "";
+        sel.text    = "";
         return len;
     }
     // set cursor position at top of text area
